@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     target: 'es2020',
-    minify: 'terser',
+    minify: 'esbuild',
   },
   server: {
     port: 5173,
